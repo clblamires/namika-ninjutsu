@@ -1,0 +1,82 @@
+[
+    {
+        "id" : 1,
+        "name" : "Fuma",
+        "mudra" : "Any single mudra",
+        "description" : "Performing the Fuma ninjutsu allows you to cast the Ice Knife spell",
+        "spell_description" : "You create a shard of ice and fling it at one creature within range (60 feet). Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.",
+        "spell_level" : 1,
+        "spell" : "Ice Knife",
+        "higher_level" : "When you cast this spell using additional mudra, the cold damage increases by 1d6 for each additional mudra spent."
+    },
+    {
+        "id" : 2,
+        "name" : "Shadon",
+        "mudra" : "Any single mudra",
+        "description" : "Performing the Shadon ninjutsu allows you to cast the Darkness spell",
+        "spell_description" : "Magical darkness spreads from a point you choose within range (60 feet) to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled. This spell's duration is 10 minutes over concentration.",
+        "spell" : "Darkness",
+        "spell_level" : 2,
+        "higher_level": ""
+    },
+    {
+        "id" : 3,
+        "name" : "Katon",
+        "mudra" : "Any mudra and Ten",
+        "description" : "Performing the Katon ninjutsu allows you to cast the Fireball spell at half the maximum range",
+        "spell_description" : "A bright streak flashes from your finger to a point you choose within range (75 feet max) and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
+        "spell" : "Fireball",
+        "spell_level" : 3,
+        "higher_level": "When you cast this spell using additional mudra, the damage increases by 1d6 for each additional mudra used."
+    },
+    {
+        "id" : 4,
+        "name" : "Raiton",
+        "mudra" : "Any mudra and Chi",
+        "description" : "Performing the Raiton ninjutsu allows you to cast the Lightning Bolt spell at half the maximum range",
+        "spell_description": "A stroke of lightning forming a line 50 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried.",
+        "spell" : "Lightning Bolt",
+        "spell_level" : 3,
+        "higher_level": "When you cast this spell using additional mudra, the damage increases by 1d6 for each additional mudra used."
+    },
+    {
+        "id" : 5,
+        "name" : "Hyoton",
+        "mudra" : "Any mudra and Chi",
+        "description" : "Performing the Hyoton ninjutsu allows you to cast the Ice Storm spell at half the maximum range",
+        "spell_description" : "A hail of rock-hard ice pounds to the ground in a 20- foot-radius, 40-foot-high cylinder centered on a point within range (150 feet max). Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one. Hailstones turn the storm's area of effect into difficult terrain until the end of your next turn.",
+        "spell" : "Ice Storm",
+        "spell_level" : 4,
+        "higher_level": "When you cast this spell using additional mudra, the bludgeoning damage increases by 1d8 for each additional mudra used."
+    },
+    {
+        "id" : 6,
+        "name" : "Huton",
+        "mudra" : "One of each of the mudras",
+        "description" : "Performing the Huton ninjutsu allows you to cast the Haste spell on yourself",
+        "spell_description" : "Until the spell ends (Concentration up to 1 minute), your speed is doubled, you gain a +2 bonus to AC, you have advantage on Dexterity saving throws, and you gain an additional action on each of your turns. That action can be used only to take the Attack action (one weapon attack only), Dash, Disengage, Hide, or Use and Object action. When the spell ends, you cannot move or take actions until after your next turn, as a wave of lethargy sweeps over you.",
+        "spell" : "Haste",
+        "spell_level" : 3,
+        "higher_level": ""
+    },
+    {
+        "id" : 7,
+        "name" : "Doton",
+        "mudra" : "One of each of the mudras",
+        "description" : "Performing the Doton ninjutsu allows you to cast the Doton spell",
+        "spell_description" : "You draw out the energies of Ten to create a circle of corrupted earth on the ground centered at a point of your choosing within range (30 feet). The circle has a radius of 10 feet and is considered to be difficult terrain for all creatures except for you. Creatures take 4d4 necrotic damage for every 5 feet they travel within Doton. When Doton appears, all creatures within the ring must make a Dexterity saving throw, taking 4d4 necrotic damage and half as much on a failed save. You are unaffected by this damage.",
+        "spell" : "",
+        "spell_level" : 4,
+        "higher_level": "Creatures take 1d4 more necrotic damage for each higher casting level, using additional mudra for each level."
+    },
+    {
+        "id" : 8,
+        "name" : "Suiton",
+        "mudra" : "One of each of the mudras",
+        "description" : "Performing the Suiton ninjutsu allows you to cast the Suiton spell",
+        "spell_description" : "You draw out the energies of Jin to cause a powerful geyser of water to explode from the ground beneath a target location within 30 feet in a 5 foot radius. Each creature inside the geyser must make a Dexterity saving throw. A creature takes 4d6 bludgeoning damage and 4d6 cold damage, or half as much on a successful save. Additionally, you cast invisibility on yourself.",
+        "spell" : "",
+        "spell_level" : 4,
+        "higher_level": "When you cast this spell using additional mudra, you deal 1d6 more bludgeoning damage for each additional mudra."
+    }
+]
